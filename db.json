@@ -1,0 +1,17 @@
+"takusou": [
+  {
+      "id": 200,
+      "status_code": "200",
+      "message": "登録に成功しました。"
+  },
+  {
+      "id": 401,
+      "status_code": "401",
+      "message": "認証に失敗しました。"
+  },
+  {
+      "id": 500,
+      "status_code": "500",
+      "message": "個数が異常です。"
+  }
+]
