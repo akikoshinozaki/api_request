@@ -1,63 +1,40 @@
-// {
-//     "takusou": [
-//         {
-//             "id": 200,
-//             "status_code": "200",
-//             "message": "登録に成功しました。"
-//         },
-//         {
-//             "id": 401,
-//             "status_code": "401",
-//             "message": "認証に失敗しました。"
-//         },
-//         {
-//             "id": 500,
-//             "status_code": "500",
-//             "message": "個数が異常です。"
-//         }
-//     ]
-// }
-
-
 {
-    "result": true,
-    "campaign": true,
-    "data": [
-        {
-            "campaign_id": "1",
-            "campaign_name": "100周年キャンペーン",
-            "campaign_explanation": "100周年対象商品を買って応募しよう",
-            "member_conditions": "0"
-            "amount_conditions": "0",
-       "commodity": [
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"}
-            ]
-        },
-        {
-            "campaign_id": "2",
-            "campaign_name": "クーポンキャンペーン",
-            "campaign_explanation": "1000円以上の購入でクーポンプレゼント",
-            "member_conditions": "0"
-            "amount_conditions": "1000",
-        },
-        {
-            "campaign_id": "3",
-            "campaign_name": "会員限定ビール祭り",
-            "campaign_explanation": "会員限定・ビール買うともう一杯プレゼント",
-            "member_conditions": "1",
-            "amount_conditions": "0",
-       "commodity": [
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"},
-             {"sku_code": "1234567890123"}
-            ]
-        }
-    ]
-}		
+    // 売上: payment_status = 0
+    // 取り消し: payment_status = 1
+    // クレジット
+    "stera_response": {
+        "ErrorCode": "",
+        "Result": "0",
+        "Tax": "0",
+        "CreditCardMaskedPAN": "454160******4002",
+        "PaymentType": "01",
+        "SlipNumber": "07199",
+        "TransactionType": "1",
+        "CurrencyCode": "JPY",
+        "CreditCardBrand": "01",
+        "Amount": "1076"
+    }
+    // 電子マネー
+    // "stera_response": {
+    //     "ErrorCode": "",
+    //     "Result": "0",
+    //     "EMoneyType": "02",
+    //     "Tax": "0",
+    //     "EMoneyNumber": "JE80F022011705243",
+    //     "PaymentType": "02",
+    //     "SlipNumber": "01659",
+    //     "TransactionType": "1",
+    //     "Amount": "7030"
+    // }
+    // QR
+    // "stera_response": {
+    //     "ErrorCode": "",
+    //     "Result": "0",
+    //     "Tax": "0",
+    //     "PaymentType": "03",
+    //     "SlipNumber": "18241",
+    //     "TransactionType": "1",
+    //     "QRPayType": "13",
+    //     "Amount": "799"
+    // }
+    }
