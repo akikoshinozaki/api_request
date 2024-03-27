@@ -1,7 +1,4 @@
 {
-    // 売上: payment_status = 0
-    // 取り消し: payment_status = 1
-    // クレジット
     "stera_response": {
         "ErrorCode": "",
         "Result": "0",
@@ -14,27 +11,4 @@
         "CreditCardBrand": "01",
         "Amount": "1076"
     }
-    // 電子マネー
-    // "stera_response": {
-    //     "ErrorCode": "",
-    //     "Result": "0",
-    //     "EMoneyType": "02",
-    //     "Tax": "0",
-    //     "EMoneyNumber": "JE80F022011705243",
-    //     "PaymentType": "02",
-    //     "SlipNumber": "01659",
-    //     "TransactionType": "1",
-    //     "Amount": "7030"
-    // }
-    // QR
-    // "stera_response": {
-    //     "ErrorCode": "",
-    //     "Result": "0",
-    //     "Tax": "0",
-    //     "PaymentType": "03",
-    //     "SlipNumber": "18241",
-    //     "TransactionType": "1",
-    //     "QRPayType": "13",
-    //     "Amount": "799"
-    // }
-    }
+}
