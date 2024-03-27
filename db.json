@@ -1,13 +1,12 @@
 {
     "stera_response": {
         "ErrorCode": "",
-        "Result": "0",
-        "EMoneyType": "02",
+        "ResultCode": "0",
         "Tax": "0",
-        "EMoneyNumber": "JE80F022011705243",
-        "PaymentType": "02",
-        "SlipNumber": "01659",
+        "PaymentType": "03",
+        "SlipNumber": "18241",
         "TransactionType": "1",
+        "QRPayType": "11",
         "Amount": "10"
     }
 }
