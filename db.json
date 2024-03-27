@@ -2,13 +2,12 @@
     "stera_response": {
         "ErrorCode": "",
         "Result": "0",
+        "EMoneyType": "02",
         "Tax": "0",
-        "CreditCardMaskedPAN": "454160******4002",
-        "PaymentType": "01",
-        "SlipNumber": "07199",
+        "EMoneyNumber": "JE80F022011705243",
+        "PaymentType": "02",
+        "SlipNumber": "01659",
         "TransactionType": "1",
-        "CurrencyCode": "JPY",
-        "CreditCardBrand": "01",
-        "Amount": "1076"
+        "Amount": "10"
     }
 }
